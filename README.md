@@ -1,3 +1,6 @@
 http://8th713.github.io/LearnAngularJS/#/
+こちらのチュートリアルをやってみる。
 
-ここのサンプルを試してみます。
+プロジェクトのテンプレートとして
+https://github.com/angular/angular-seed
+を使ってみる。
