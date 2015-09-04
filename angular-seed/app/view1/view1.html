@@ -1,1 +1,11 @@
 <p>This is the partial for view 1.</p>
+<form ng-submit="View1Ctrl.addTodo(newTodo)">
+  <input type="text" required placeholder="input new todo" ng-model="newTodo.title" />
+  <button type="submit">追加</button>
+</form>
+<ul ng-repeat="todo in View1Ctrl.todos">
+  <li>
+    <span>{{todo.title}}</span>
+  </li>
+</ul>
+<p>{{View1Ctrl.test}}</p>
